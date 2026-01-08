@@ -1,50 +1,55 @@
-Supermarket Sales Analysis
+# Supermarket Sales Analysis
 
-Análise exploratória de dados de um supermercado, utilizando Python e Pandas para identificar padrões de vendas, desempenho financeiro e insights sobre o comportamento dos clientes.
+Análise exploratória de dados de um supermercado, utilizando Python e Pandas para identificar padrões de vendas, desempenho financeiro e insights sobre comportamento dos clientes.**
 
-Objetivo
+## Objetivo
+Entender padrões de venda e comportamento dos consumidores em diferentes filiais e períodos.
 
-Entender os padrões de venda e o comportamento dos consumidores em diferentes filiais e períodos, com base em um conjunto de dados reais de vendas de supermercado.
+## Etapas da Análise
 
-Etapas da Análise
-1️. Entendimento do Negócio
+### 1️.Entendimento do Negócio 
+- Filiais/cidades identificadas
+- Satisfação por filial (C melhor, B pior)  
+- Participação vendas por filial
+- Mix produtos (Food & Beverages lidera)
 
-Análise das filiais e cidades.
-Cálculo da média de satisfação por filial.
-Identificação da participação de vendas por filial.
-Avaliação das categorias de produtos mais vendidas.
+### 2️.Desempenho Financeiro 
+- Receita total por filial
+- Ticket médio calculado
+- Produtos mais rentáveis
+- Métodos pagamento analisados
 
-2️. Desempenho Financeiro
+### 3️.Padrões Temporais 
+- Datas convertidas e analisadas
+- Segunda a quarta = pico vendas
+- Sazonalidade identificada
 
-Receita total por filial.
-Ticket médio por filial.
-Produtos mais rentáveis.
-Análise dos métodos de pagamento utilizados.
+### 4️.Entender o Cliente
+- Distribuição: 50.1% Female, 50.1% Member
+- Ticket médio: Female Member R$337 (maior)
+- Receita: Female Member R$88k (líder)
+- Rating x Total: Correlação -0.036 (fraca)
 
-3️. Padrões Temporais
+### 5️.Insights Gestão 
+- Filial melhor/pior performance
+- Motivos diferenças (ticket/lucro)
+- Categoria melhor margem
+- Pagamento mais rentável
+- Recomendações gestão
 
-Conversão e manipulação de datas.
-Análise mensal e semanal de vendas.
-Identificação dos dias de maior e menor movimento.
+## Insights Principais
+- Filial C domina (receita + satisfação)
+- Seg-Sex pico, fins semana fracos
+- Food & Beverages categoria estratégica
+- Female Member perfil mais valioso
+- Rating não prevê gasto
 
-Insights Principais
+## 📚 Conhecimentos Aplicados
+- **Python/Pandas** (Wes McKinney + Teo Me Why)
+- **Estatística Descritiva** (População/Amostra/Medidas)
+- **Visualização** (Seaborn/Matplotlib)
 
-Filial C apresentou o melhor desempenho geral, com maior receita, ticket médio e satisfação.
-Segunda a quarta-feira (Monday a Wednesday) foram os dias de maior movimentação.
-Food and Beverages foi a categoria mais rentável da rede.
-As vendas caem nos finais de semana, sugerindo sazonalidade semanal.
-Ewallet e Cash são os métodos de pagamento mais utilizados.
+Notebook atualizado: [etapa4_clientes.png](etapa4_clientes.png) [etapa4_ticket.png](etapa4_ticket.png)
 
-Próximos Passos
-
-Entender o cliente.
-Analisar correlação entre vendas e gênero.
-Verificar relação entre satisfação e valor gasto.
-
-Conhecimentos Aplicados
-
-Projeto desenvolvido com base nos aprendizados obtidos nos cursos de Python (Teo Me Why) e no livro “Python para Análise de Dados” (Wes McKinney), aplicando técnicas de exploração, agrupamento e análise estatística de dados com a biblioteca Pandas.
-
-
-
-Projeto em andamento.
+---
+*Projeto em andamento
